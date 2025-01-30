@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    transition: background-color 1s ease; /* Smooth transition */
+}
+
+/* Container for all elements */
+.container {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Added button transform */
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.98); /* Shrinks button slightly when clicked */
+}
+
+/* Counter Text Styling */
+#counter {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Color Text Display */
+#colorText {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+#formSection {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#formSection input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#formSection button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formSection button:hover {
+    background-color: #45a049;
+}
+
+#formSection #greetingMessage {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 15px;
+}
+
